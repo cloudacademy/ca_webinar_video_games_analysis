@@ -3,7 +3,7 @@
 
 ## Speaker info
 This webinar is held by Andrea Giussani, Data Scientist at Cloud Academy.
-You can reach him out at [:email:](andrea.giussani@cloudacademy.com), and you can follow him either on his :rocket: [blog](https://andreagiussani.github.io/the-long-beard-blog/) or via [GitHub](https://github.com/andreagiussani).
+You can reach him out at [:email:](andrea.giussani@cloudacademy.com), or you can follow him on his [:rocket: blog](https://andreagiussani.github.io/the-long-beard-blog/).
 
 ## Setting Up the Google Colab Environment
 
@@ -21,16 +21,16 @@ From your favourite browser, open a new colab notebook via the following [link](
 
 ### 2. Mount your drive on colab
 
-I am assuming you have placed the data into the `My Drive` folder. If so, connecting your drive to a google machine is pretty easy, using the python google library: just run the following code snippet:
+We assume you have placed the data into the `My Drive` folder. If so, connecting your drive to a google machine is pretty easy, using the python google library: just run the following code snippet
 
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-after an authorisation check, you will be able to interact with your drive content either from the file browser side panel (easier) or using command-line utilities.
+After an authorisation check, you will be able to interact with your drive content either from the file browser side panel (easier) or using command-line utilities.
 
 ### 3. Let's get our hands dirty
-Just run the following snippet to put the raw data into a pandas dataframe:
+Just run the following snippet to put the raw data into a `pandas` dataframe:
 ```python
 import pandas as pd
 df = pd.read_csv('/content/drive/My Drive/<FILENAME>.csv')
