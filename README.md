@@ -1,9 +1,9 @@
 # Cloud Academy Webinar
-# Title: Karting in the history of video games: from Zelda to CoD using a Python engine
+# Title: Karting Through Video Games History with Python: how to manipulate your data from Zelda to CoD
 
 ## Speaker info
 This webinar is held by Andrea Giussani, Data Scientist at Cloud Academy.
-You can reach him out at [:email:](andrea.giussani@cloudacademy.com) or via [GitHub](https://github.com/andreagiussani).
+You can reach him out at [:email:](andrea.giussani@cloudacademy.com) or you can follow him either on his :rocket: [blog](https://andreagiussani.github.io/the-long-beard-blog/) or via [GitHub](https://github.com/andreagiussani).
 
 ## Setting Up the Google Colab Environment
 
