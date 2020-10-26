@@ -3,7 +3,7 @@
 
 ## Speaker info
 This webinar is held by Andrea Giussani, Data Scientist at Cloud Academy.
-You can reach him out at [:email:](andrea.giussani@cloudacademy.com) or you can follow him either on his :rocket: [blog](https://andreagiussani.github.io/the-long-beard-blog/) or via [GitHub](https://github.com/andreagiussani).
+You can reach him out at [:email:](andrea.giussani@cloudacademy.com), and you can follow him either on his :rocket: [blog](https://andreagiussani.github.io/the-long-beard-blog/) or via [GitHub](https://github.com/andreagiussani).
 
 ## Setting Up the Google Colab Environment
 
@@ -12,7 +12,7 @@ The Google Colab is a product from Google Research which allows
 
 For more information, please visit the following [link](https://research.google.com/colaboratory/faq.html).
 
-Here, we provide a short tutorial on how to upload the data on that environemnt via google drive, and then use the Google colab to run your analysis.
+Here, we provide a short tutorial on how to upload the data on that environemnt via Google drive, and then use the Google colab to run your analysis.
 Please, note that we assume you have a google account to access to this Google product.
 
 ### 1. Open a Google Colab session
