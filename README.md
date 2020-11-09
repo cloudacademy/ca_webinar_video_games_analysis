@@ -29,7 +29,20 @@ drive.mount('/content/drive')
 ```
 After an authorisation check, you will be able to interact with your drive content either from the file browser side panel (easier) or using command-line utilities.
 
-### 3. Let's get our hands dirty
+### 3. Clone the GitHub Repository on your Drive
+I suggest to create a folder inside your drive. For example, call it `ca.webinars`. Then, in any colab notebook cell, type the following commands
+```python
+%cd '/content/drive/My Drive/ca.webinars'
+```
+and then clone the following repository:
+```python
+!git clone https://github.com/cloudacademy/ca_webinar_video_games_analysis.git
+```
+
+### 4. Open the template .ipynb file from your drive
+Now, you have to navigate inside the Google Drive folder where the repo has been cloned. Once there, you just need to open the file `'[webinar] Hands-on Data Analysis with Python-student_nb.ipynb'` with Google Colab. And that's it! :smile:
+
+### 5. Let's get our hands dirty
 Just run the following snippet to put the raw data into a `pandas` dataframe:
 ```python
 import pandas as pd
