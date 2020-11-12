@@ -46,6 +46,6 @@ Now, you have to navigate inside the Google Drive folder where the repo has been
 Just run the following snippet to put the raw data into a `pandas` dataframe:
 ```python
 import pandas as pd
-df = pd.read_csv('/content/drive/My Drive/<FILENAME>.csv')
+df = pd.read_csv('/content/drive/My Drive/<PATH_TO_FILE>/<FILENAME>.csv')
 ```
 Are you ready? Let us get started!
